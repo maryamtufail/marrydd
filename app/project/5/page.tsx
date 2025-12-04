@@ -53,7 +53,7 @@ export default function ProjectDKVPage() {
 
                   {/* Desktop Image */}
                   <img
-                    src="/dkv-hero.webp"
+                    src="/dkv1.png"
                     alt="DKV Mobility dashboard and product pages preview"
                     className="mb-6 w-full max-w-3xl rounded-lg border object-cover"
                     loading="lazy"
@@ -226,7 +226,7 @@ export default function ProjectDKVPage() {
 
         <section className="px-4 py-10">
           <img
-            src="/dkv-hero.webp"
+            src="/dkv1.png"
             alt="DKV Mobility mobile preview"
             className="mb-6 aspect-video w-full rounded-lg border object-cover"
             loading="lazy"
