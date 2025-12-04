@@ -32,27 +32,7 @@ export default function ProjectWagoBankPage() {
                       transparent UX, and intelligent automation.
                     </p>
 
-                    <ul className="flex flex-wrap gap-3 text-xs mb-6">
-                      {[
-                        "FinTech",
-                        "Digital Banking",
-                        "AI Fraud Detection",
-                        "AI Credit Scoring",
-                        "Predictive Finance",
-                        "Next.js",
-                        "React",
-                        "Tailwind",
-                        "Node.js APIs",
-                        "Secure Role-based Access",
-                      ].map((t) => (
-                        <li
-                          key={t}
-                          className="px-3 py-1 rounded-full border bg-white/60 dark:bg-black/40 text-foreground text-md"
-                        >
-                          {t}
-                        </li>
-                      ))}
-                    </ul>
+                   
                   </header>
 
                   {/* Desktop Image */}
@@ -75,22 +55,6 @@ export default function ProjectWagoBankPage() {
                       <li>Card issuance & management</li>
                       <li>Deposits & automated financial planning</li>
                       <li>Secure global transactions with audit trails</li>
-                    </ul>
-                  </div>
-
-                  {/* AI Features */}
-                  <div className="prose dark:prose-invert text-sm leading-relaxed max-w-3xl mb-8">
-                    <h2 className="text-lg font-semibold mb-3">AI Features</h2>
-                    <p className="mb-4">
-                      AI was integrated to improve security, decision-making, and financial clarity. Key AI functions include:
-                    </p>
-                    <ul className="list-disc pl-5 text-xs space-y-1 mb-4">
-                      <li><strong>AI Fraud Detection:</strong> Real-time anomaly monitoring for suspicious behavior</li>
-                      <li><strong>AI Transaction Categorization:</strong> Auto-labeling income, expenses & transfers</li>
-                      <li><strong>AI Credit Scoring:</strong> Automated scoring for loan eligibility</li>
-                      <li><strong>AI Banking Assistant:</strong> Helps users check balances, find transactions, and manage cards</li>
-                      <li><strong>Predictive Analytics:</strong> Spending forecasts, savings projections & financial health insights</li>
-                      <li><strong>AI Risk Engine:</strong> Detects abnormal login patterns & high-risk accounts</li>
                     </ul>
                   </div>
 
@@ -167,7 +131,7 @@ export default function ProjectWagoBankPage() {
                         </div>
                         <div>
                           <dt className="font-medium text-muted-foreground">Timeline</dt>
-                          <dd>1 Year 9 Months</dd>
+                          <dd>9 Months</dd>
                         </div>
                         <div>
                           <dt className="font-medium text-muted-foreground">Country</dt>
