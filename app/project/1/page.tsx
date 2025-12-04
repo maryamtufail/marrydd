@@ -141,7 +141,7 @@ export default function ProjectLearingoPage() {
                         <img
                       src="/learingo.webp"
                       alt="Learingo platform preview — dashboard and course screens"
-                      className="w-full h-auto rounded-lg object-cover"
+                      className="w-full h-auto rounded-lg object-cover mb-4"
                       loading="lazy"
                     />
 
