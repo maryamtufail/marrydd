@@ -8,7 +8,7 @@ export default function SidebarGabi() {
         {/* Top section with title */}
         <div className="flex flex-col">
           <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity">
-            <div className="m3-label text-foreground mb-[42px]">PORTFOLIO // 2025</div>
+            <div className="m3-label text-foreground mb-[42px]">PORTFOLIO // 2026</div>
           </Link>
           <div className="font-sans font-regular text-[48px] leading-tight text-foreground my-[-0] leading-[1.1rem]">
             Maryam
@@ -55,7 +55,7 @@ export default function SidebarGabi() {
         {/* Top section with title */}
         <div className="space-y-4">
           <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity">
-            <div className="m3-label text-foreground">PORTFOLIO // 2025</div>
+            <div className="m3-label text-foreground">PORTFOLIO // 2026</div>
           </Link>
           <div className="font-sans font-regular text-[32px] md:text-[40px] leading-tight text-foreground">
             Maryam Tufail
