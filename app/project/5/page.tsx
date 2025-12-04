@@ -177,7 +177,7 @@ export default function ProjectDKVPage() {
 
                         <div>
                           <dt className="font-medium text-muted-foreground">Timeline</dt>
-                          <dd>11 Months</dd>
+                          <dd>1 year 4 Months</dd>
                         </div>
 
                         <div>
