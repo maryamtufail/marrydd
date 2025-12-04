@@ -162,7 +162,7 @@ export default function ProjectRivercityPage() {
                         </div>
                         <div>
                           <dt className="font-medium text-muted-foreground">Timeline</dt>
-                          <dd>11 months</dd>
+                          <dd>1 year 3 months</dd>
                         </div>
                         <div>
                           <dt className="font-medium text-muted-foreground">Country</dt>
