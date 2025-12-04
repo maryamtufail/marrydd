@@ -33,12 +33,22 @@ export default function ProjectLightStarsAcademyPage() {
                   </header>
 
                   {/* Desktop Image */}
-                  <img
-                    src="/lightstars.webp"
-                    alt="LightStars Academy website and academic platform"
-                    className="mb-6 w-full max-w-3xl rounded-lg border object-cover"
-                    loading="lazy"
-                  />
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mb-6">
+                    <img
+                      src="/lightstar.png"
+                      alt="LightStars Academy platform preview — dashboard and course screens"
+                      className="w-full h-auto rounded-lg object-cover"
+                      loading="lazy"
+                    />
+                    <img
+                      src="/lightstara.png"
+                      alt="LightStars Academy website and academic platform"
+                      className="w-full h-[290px] rounded-lg object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+               
 
                   {/* Platform Overview */}
                   <div className="prose dark:prose-invert text-sm leading-relaxed max-w-3xl mb-8">
@@ -46,6 +56,7 @@ export default function ProjectLightStarsAcademyPage() {
                     <p className="mb-4">
                       LightStars Academy offers an organized, content-rich platform built to support:
                     </p>
+                    
                     <ul className="list-disc pl-5 text-xs space-y-1 mb-4">
                       <li>Training programs & course structures</li>
                       <li>Admissions information & requirements</li>
@@ -53,6 +64,7 @@ export default function ProjectLightStarsAcademyPage() {
                       <li>Guidance for parents & first-time visitors</li>
                       <li>Mobile-optimized browsing for global users</li>
                     </ul>
+                       <img src="/acd.png" alt="LightStars Academy academic platform dashboard and course screens"/>
                   </div>
 
                   {/* Challenges */}
@@ -110,6 +122,7 @@ export default function ProjectLightStarsAcademyPage() {
                         </tbody>
                       </table>
                     </div>
+                 
                   </div>
                 </article>
 
@@ -176,7 +189,7 @@ export default function ProjectLightStarsAcademyPage() {
 
         <section className="px-4 py-10">
           <img
-            src="/lightstars.webp"
+            src="/lightstara.png"
             alt="LightStars Academy mobile preview"
             className="mb-6 aspect-video w-full rounded-lg border object-cover"
             loading="lazy"
