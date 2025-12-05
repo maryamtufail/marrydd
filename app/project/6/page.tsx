@@ -55,7 +55,7 @@ export default function ProjectIKSLogicsPage() {
 
                   {/* Desktop Image */}
                   <img
-                    src="/iks-hero.webp"
+                    src="/iksw.png"
                     alt="IKS Logics corporate website preview"
                     className="mb-6 w-full max-w-3xl rounded-lg border object-cover"
                     loading="lazy"
@@ -235,11 +235,12 @@ export default function ProjectIKSLogicsPage() {
 
         <section className="px-4 py-10">
           <img
-            src="/iks-hero.webp"
+            src="/iksw.png"
             alt="IKS Logics mobile preview"
             className="mb-6 aspect-video w-full rounded-lg border object-cover"
             loading="lazy"
           />
+
 
           <div className="prose dark:prose-invert text-sm leading-relaxed">
             <h1 className="text-xl font-semibold mb-4">IKS Logics — Corporate Multi-Page Website</h1>
