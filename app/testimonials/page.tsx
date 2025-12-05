@@ -8,7 +8,7 @@ const testimonials = [
     feedback: "Maryam is an exceptional designer and frontend engineer. Her attention to detail and ability to deliver high-quality products is outstanding.",
   },
   {
-    name: "Jane Smith",
+    name: "Kamlesh Patel",
     role: "Product Manager, Learnigo",
     feedback: "Working with Maryam was a pleasure. She transformed our ideas into a beautiful, functional platform.",
   },
