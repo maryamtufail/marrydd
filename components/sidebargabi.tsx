@@ -20,7 +20,7 @@ export default function SidebarGabi() {
         {/* Bottom section with bio and links */}
         <div className="flex flex-col space-y-6">
 
-          <p className="font-sans font-light text-[18px] leading-relaxed text-stone-500">
+          <p className="font-sans font-light text-[18px] leading-relaxed text-foreground">
             A freelancer focusing heavily on design & development based in Pakistan. Create products that make people say, oh damn!
           </p>
 
@@ -63,7 +63,7 @@ export default function SidebarGabi() {
         </div>
 
         {/* Bio text */}
-        <p className="font-sans font-light text-[18px] leading-relaxed text-stone-500">
+        <p className="font-sans font-light text-[18px] leading-relaxed text-foreground">
           A freelancer focusing heavily on design & development based in Pakistan. Create products that make people say, oh damn!
         </p>
 
