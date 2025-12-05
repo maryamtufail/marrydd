@@ -13,14 +13,14 @@ interface GalleryProps {
 }
 
 const defaultProjects: Project[] = [
-  { id: "1", title: "Learingo", image: "./learingo.png" },
-  { id: "2", title: "RiverCity", image: "./rivercity.png" },
-  { id: "3", title: "Wago Bank", image: "./wago.png" },
-  { id: "4", title: "Light Star", image: "./lightstar.png" },
-  { id: "5", title: "DVK", image: "./dvk.png" },
-  { id: "6", title: "IKS", image: "./iks.png" },
-  { id: "7", title: "Reploy Me", image: "./reployme.png" },
-  { id: "8", title: "Vax Assist", image: "./vaxassist.png" },
+  { id: "1", title: "Learingo", image: "./learingo.png", alt: "Learingo" },
+  { id: "2", title: "RiverCity", image: "./rivercity.png", alt: "RiverCity" },
+  { id: "3", title: "Wago Bank", image: "./wago.png", alt: "Wago Bank" },
+  { id: "4", title: "Light Star", image: "./lightstar.png", alt: "Light Star" },
+  { id: "5", title: "DVK", image: "./dvk.png", alt: "DVK" },
+  { id: "6", title: "IKS", image: "./iks.png", alt: "IKS" },
+  { id: "7", title: "Reploy Me", image: "./reployme.png", alt: "Reploy Me" },
+  { id: "8", title: "Vax Assist", image: "./vaxassist.png", alt: "Vax Assist" },
 ]
 
 export default function Gallery({ projects = defaultProjects }: GalleryProps) {
@@ -38,7 +38,7 @@ export default function Gallery({ projects = defaultProjects }: GalleryProps) {
             >
               <img
                 src={project.image || "/placeholder.svg?height=300&width=400&query=project image"}
-                alt={project.title}
+                alt={project.alt}
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 h-[30%] bg-gradient-to-t from-neutral-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
