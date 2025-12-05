@@ -3,7 +3,7 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Jason Lee",
     role: "CEO, TechCorp",
     feedback: "Maryam is an exceptional designer and frontend engineer. Her attention to detail and ability to deliver high-quality products is outstanding.",
   },
